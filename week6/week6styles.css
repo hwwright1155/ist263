@@ -1,0 +1,19 @@
+p {
+    font-family:Arial, Helvetica, sans-serif;
+    color:coral;
+    font-size: 400%; 
+    /* We are selecting all the paragraphs, changing font, color and size*/
+}
+h1{
+    color:darkmagenta;
+    letter-spacing: 1.1em;
+    word-spacing: 5em;
+    /*You can lookup all different text effects in w3schools*/
+}
+p, h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:mediumvioletred;
+}
+p a{
+    color:orange;
+}
