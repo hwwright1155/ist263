@@ -1,0 +1,18 @@
+body{
+    background-color:#B6BBC6;
+    color:#332F6E;
+}
+p{
+    background-color:#A57897;
+}
+h1{
+  color:#A75086; 
+}
+nav a{
+    background-color:#D6A6AC;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+nav a:hover{
+    background-color:#A75086;
+}
