@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color:black;
+            color:white;
+            padding:5px;
+            display:flex;
+        }
+        .myrow1{
+            justify-content:flex-end; /*right justifies content inside flexbox*/
+        }
+        .myrow2{
+            justify-content:space-around;
+            margin-bottom:15px;
+        }
+        .myrow3{
+            margin-bottom:15px;
+            justify-content:space-between;
+        }
+        .myrow4{
+
+        }
+    </style>
+</head>
+<body>
+    <p>Right justified navigation</p>
+    <div class="myrow1">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <p>Equal space around all the flexbox columns</p>
+    <div class="myrow2">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <p>All space distributed between the elements.</p>
+    <div class="myrow3">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+
+    <p>This is going to layout some items on the left and some on the right</p>
+    <div class="myrow4">
+        <div>Home</div>
+        <div>About Us</div>
+        <div>Products</div>
+        <div>Contact</div>
+    </div>
+    <div class="social">
+        <div>Facebook</div>
+        <div>Twitter</div>
+    </div>
+</body>
+</html>
