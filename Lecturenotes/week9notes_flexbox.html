@@ -23,8 +23,14 @@
             margin-bottom:15px;
             justify-content:space-between;
         }
-        .myrow4{
-
+        .myrow4 div{
+            border:1px solid purple;
+        }
+        .social div{
+            border:1px solid yellow;
+        }
+        .outerflexbox div{
+            justify-content:space-between;
         }
     </style>
 </head>
@@ -63,6 +69,22 @@
     <div class="social">
         <div>Facebook</div>
         <div>Twitter</div>
+    </div>
+
+    <p>Three flexboxwa-an outer with two columns and then two nested flexboxes inside those columns</p>
+    <div class="outerflexbox">
+        <div>
+            <div class="myrow4">
+                <div>Home</div>
+                <div>About Us</div>
+                <div>Products</div>
+                <div>Contact</div>
+             </div>
+            <div class="social">
+                <div>Facebook</div>
+                <div>Twitter</div>
+            </div>
+        </div>
     </div>
 </body>
 </html>

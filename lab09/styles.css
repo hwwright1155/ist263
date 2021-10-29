@@ -2,11 +2,9 @@ body{
     background-color:#B6BBC6;
     color:#332F6E;
 }
-p{
-    background-color:#A57897;
-}
 h1{
-  color:#A75086;
+  color:#A75086; 
+  text-align:center;
 }
 nav a{
     background-color:#D6A6AC;
@@ -38,3 +36,25 @@ width:950px;}
         top:-100px;
         left:-550px;}
 .clear{clear:both;}
+img{
+    width: 70px;
+}
+aside{
+    Background-color:#A75086;
+    width:200px;
+    border-radius:1em;
+    padding:20px;
+}
+.column1{
+    display:flex;
+    flex-basis:75%;
+    justify-content:space-around;
+}
+.column2{
+    display:flex;
+    flex-basis:25%;
+}
+.outerflexbox{display:flex;}
+.body{
+    margin:20px;
+    padding:20px;}
