@@ -42,3 +42,9 @@ nav a:hover{
 .banner{
     max-width:100%;
 }
+@media only screen and (max-width:800px){
+    a{display:block;
+    size:100%;}
+    span{display:none;}
+    nav a{margin-bottom:0px;}
+}
