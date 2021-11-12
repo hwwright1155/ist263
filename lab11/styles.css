@@ -3,7 +3,7 @@ body{
     color:#302e4e;
 }
 p{
-    background-color:#f1b9df;
+    background-color:#c295b4;
 }
 h1{
   color:#A75086;
@@ -20,12 +20,12 @@ nav a:hover{
     float:right;
     margin-right:15px;
 }
-.box1{background-color:#f1b9df;
+.box1{background-color:#c295b4;
     padding:40px;
     margin:30px;
     border-radius:1em;}
 .box2{
-    background-color:#f1b9df;
+    background-color:#c295b4;
     display:flex;
     padding:40px;
     margin:30px;
