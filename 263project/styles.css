@@ -28,3 +28,21 @@ h1{
 .gallerycolor{
     background-color:#86BBBD;
 }
+/*Home CSS*/
+.headshot{
+    height:400px;
+    width:300px;
+}
+.homeshoe{
+    height:350px;
+    width:350px;
+    float:right;
+}
+.artist{
+    float:right;
+}
+/*Footer*/
+.instagram{
+    height:20px;
+    height:20px;
+}
