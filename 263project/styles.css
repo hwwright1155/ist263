@@ -46,6 +46,7 @@ h1{
     float:right;
     padding:30px;
     margin:5px;
+    margin-top:15px;
 }
 .headshot{
     float:left;
@@ -70,6 +71,14 @@ h2{
 }
 .artist{
     font-size:20px;
+}
+.homepone{
+    margin-left:200px;
+    margin-right:20px;
+}
+.homeptwo{
+    margin-left:20px;
+    margin-right:200px;
 }
 /*Footer*/
 .instagram{
