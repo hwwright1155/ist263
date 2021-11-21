@@ -1,3 +1,16 @@
+body{
+    font-family:Optima, sans-serif;
+    background-color:#CEE5F2;
+}
+a{
+    color:white;
+}
+nav{
+    text-align:center;
+    padding:50px;
+    font-size:20px;
+    background-color:#536B78;
+}
 /*Gallery CSS*/
 .row{
     display:flex;
@@ -14,19 +27,13 @@
     height:275px;
     width:275px;
 }
-nav{
-    text-align:center;
-    padding:50px;
-    font-size:20px;
-    background-color:#76949F;
-}
 h1{
     text-align:center;
     margin-top:0px;
     padding-top:30px;
 }
 .gallerycolor{
-    background-color:#86BBBD;
+    background-color:#CEE5F2;
 }
 /*Home CSS*/
 .headshot{
@@ -37,12 +44,43 @@ h1{
     height:350px;
     width:350px;
     float:right;
+    padding:30px;
+    margin:5px;
+}
+.headshot{
+    float:left;
+    margin:30px;
+    padding:5px;
+}
+.clear{
+    clear:left;
+}
+p{
+    margin:3px;
+    padding:20px;
+    background-color:#7C98B3;
+}
+h2{
+    margin:30px;
+    background-color:#86BBBD;
+    text-align:left;
+}
+.story{
+    margin-bottom:20px;
 }
 .artist{
-    float:right;
+    font-size:20px;
 }
 /*Footer*/
 .instagram{
     height:20px;
     height:20px;
+}
+footer{
+    background-color:#637081;
+    color:white;
+    padding:10px;
+}
+.footer{
+    display:flex;
 }
