@@ -1,0 +1,28 @@
+#headjpg {width:300px;}
+#homeshoejpg{width:400px;float:right;}
+#instagramjpg{width:20px;}
+#paintcanjpg{width:600px;}
+#cleanairjpg{width:300px;}
+#brushesjpg{width:900px;}
+.column img{
+    margin-top:20px;
+    margin-left:60px;
+    vertical-align: middle;
+    height:275px;
+    width:275px;
+}
+.headshot{
+    float:left;
+}
+.clear{
+    clear:left;
+}
+.clear2{
+    clear:right;
+}
+.paintcans{
+    float:right;
+}
+.paintqmaterials{
+    float:left;
+}

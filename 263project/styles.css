@@ -1,4 +1,4 @@
-body{
+/*body{
     font-family:Optima, sans-serif;
     background-color:#CEE5F2;
 }
@@ -11,8 +11,8 @@ nav{
     padding:50px;
     font-size:20px;
     background-color:#536B78;
-}
-/*Gallery CSS*/
+}*/
+/*Gallery CSS
 .row{
     display:flex;
     flex-wrap:wrap;    
@@ -36,7 +36,8 @@ h1{
 .gallerycolor{
     background-color:#CEE5F2;
 }
-/*Home CSS*/
+*/
+/*Home CSS
 .headshot{
     height:400px;
     width:300px;
@@ -57,7 +58,7 @@ h1{
 .clear{
     clear:left;
 }
-p{
+p, ul{
     margin:3px;
     padding:20px;
     background-color:#7C98B3;
@@ -86,10 +87,9 @@ h2{
     margin-right:300px;
     margin-left:300px;
     
-}
+}*/
 /*Footer*/
 .instagram{
-    height:20px;
     height:20px;
 }
 footer{
@@ -99,4 +99,26 @@ footer{
 }
 .footer{
     display:flex;
+}
+/*Process Page*/
+#paintcans{
+    width:400px;
+}
+#airpair{
+    width:300px;
+}
+#brushes{
+    width:1240px;
+}
+#quality{
+    float:left;
+}
+.paintcan{
+    float:right;
+}
+.paintingshoe{
+    float:left;
+}
+.cleanimage{
+    float:right;
 }
