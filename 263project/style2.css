@@ -51,6 +51,13 @@ nav{
     font-size: 30px;
     color:white;
 }
+a{
+    color:white;
+    text-decoration:none;
+}
+a:hover{
+    background-color: #7C98B3;
+}
 
 body{
     background-color: #CEE5F2;
@@ -88,10 +95,14 @@ ul{
 /*Gallery*/
 #gallery{
     text-align:center;
+    padding:20px;
+    margin:10px 500px 0px 500px;
+    background-color:#7C98B3;
+    border:5px solid #5F506B;
 }
 /*Footer*/
 footer{
-    background-color:#637081;
+    background-color:#5F506B;
     color:white;
     padding:10px;
 }
@@ -101,4 +112,7 @@ footer{
 
 span{
     background-color:#86BBBD;
+}
+.instaf{
+    float:right;
 }
