@@ -1,37 +1,17 @@
 /* Image sizing and positioning*/
 #headjpg {width:300px;}
-#homeshoejpg{width:400px;float:right;background-color: #7C98B3;padding:20px;}
+#homeshoejpg{width:400px;background-color: #7C98B3;padding:40px 25px 40px 25px;margin:30px 20px 20px 20px;}
 #instagramjpg{width:20px;margin:0px;}
 #paintcanjpg{width:600px;}
 #cleanairjpg{width:300px;}
-#brushesjpg{max-width:100%;}
-.column img{
-    margin-top:20px;
-    margin-left:90px;
-    vertical-align: middle;
-    height:275px;
-    width:275px;
-    border:8px solid #7C98B3;
-}
-.row{
-    display:flex;
-    flex-wrap:wrap;    
-}
-.column{
-    flex:33%;
-    padding: 40px;
-}
-.headshot{
-    float:left;
-    background-color: #7C98B3;
-    margin-left:20px;
-}
-.clear{
+#brushesjpg{max-width:100%; margin:0px;}
+
+/*.clear{
     clear:left;
 }
 .clear2{
     clear:right;
-}
+}*/
 .paintcans{
     float:right;
 }
@@ -68,15 +48,29 @@ h2{
     
 }
 /*Home Page*/
+.firstflex{
+    display:flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
+.secondflex{
+    display:flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
 .intro{
-    margin:20px;
-    padding:70px 50px 82px 0px;
+    margin:20px 20px 0px 20px;
+    padding:30px;
     background-color: #7C98B3;
 }
 #start{
     margin:20px;
-    padding:50px 0px 50px 50px;
+    padding: 30px;
     background-color: #7C98B3;
+}
+.headshot{
+    background-color: #7C98B3;
+    margin:20px 0px 0px 20px;
 }
 /*Process*/
 .midparagraph{
@@ -93,12 +87,26 @@ ul{
     margin:0px 50px 0px 50px;
 }
 /*Gallery*/
-#gallery{
+#sgallery{
     text-align:center;
-    padding:20px;
-    margin:10px 500px 0px 500px;
-    background-color:#7C98B3;
-    border:5px solid #5F506B;
+    /*background-color:#86BBBD;*/
+    border:5px solid #5F506B;/
+}
+.column img{
+    margin-top:20px;
+    margin-left:90px;
+    vertical-align: middle;
+    height:260px;
+    width:260px;
+    border:8px solid #7C98B3;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;    
+}
+.column{
+    flex:33%;
+    padding: 40px;
 }
 /*Footer*/
 footer{
@@ -116,3 +124,14 @@ span{
 .instaf{
     float:right;
 }
+.column img:hover{
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+@media only screen and (max-width:900px){
+    .column img {margin-left:0px;}
+    .firstflex, .secondflex{flex-wrap:wrap;}
+    #paintcanjpg{max-width:100%;}
+    img{margin:0px;}
+    #homeshoejpg{padding:0px;margin:0px;width:300px;}
+ }
